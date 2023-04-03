@@ -32,7 +32,6 @@ If you exported a 360 video, select equirectangular as the camera lense type. DO
 
 ## Notes
 * When an fps of more than 1 is used, sequential frames in groups of X (the FPS value) will share the same GPS point. This is because the output GPX file only has GPS points that have an accuracy of every second and it also only creates 10 trackpoints per second. I didn't want to bother syncing up the subtime frames with the trackpoints. It also doesn't really matter because ODM when processing the images is actually able to determine their exact positions. When you open the model viwer after processing and click "show cameras", you'll see that each frame is spaced equally apart and ODM was able to find each of their unique positions.
-* Whenever geotagging 
 
 ## Sources
 * https://www.trekview.org/blog/2021/turn-360-video-into-timelapse-images-part-2/ helped me the most.
