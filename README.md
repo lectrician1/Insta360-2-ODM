@@ -1,6 +1,6 @@
 # Insta360-2-ODM
 
-This is a PowerShell script and guide to convert a GPS-tracked video recorded on a Insta360 camera like the ONE X2 into a GPS-tagged image sequence that OpenDroneMap can injest to generate photogrammetry models. 
+This is a PowerShell script and guide to convert a GPS-tracked video recorded on a Insta360 camera like the ONE X2 into a GPS-tagged image sequence that OpenDroneMap can ingest to generate photogrammetry models. 
 
 Having a GPS-tagged image sequence decreases the processing time of the photogrammetry and increases the quality.
 
